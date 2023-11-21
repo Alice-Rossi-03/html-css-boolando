@@ -27,7 +27,7 @@ header{
     align-items: center;
 }
 
-header div figure img{
+header div div img{
     height: 80px;
 } 
 
@@ -53,11 +53,12 @@ nav ul li{
 .row{
     display: flex;
     gap: 20px;
+    padding-block: 30px;
 }
 
 .photo{ 
     position: relative;
-    max-width: 100%;
+    background-image: url(./img/img-defaul/1.webp);
 }
 
 .heart{
@@ -105,4 +106,35 @@ nav ul li{
 
 .box{
     width: calc(100% / 3 - 40px);
+}
+
+.hover{
+    opacity: 0;
+}
+
+.hover:hover{
+    opacity: 1;
+}
+
+.container div ul li{
+    list-style-type: none;
+}
+
+.container div ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container div ul{
+    display: flex;
+    gap: 5px;
+}
+
+footer{
+    color: #ffffff;
+    background-color: rgb(31, 31, 33);
+}
+
+hr{
+    border-color: gray;
 }
