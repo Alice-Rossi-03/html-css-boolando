@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html{
@@ -58,7 +58,31 @@ nav ul li{
 
 .photo{ 
     position: relative;
+    background-repeat: no-repeat;
+}
+
+.relaxed{
     background-image: url(./img/img-defaul/1.webp);
+}
+
+.guess{
+    background-image: url(./img/img-defaul/2.webp);
+}
+
+.zucchero{
+    background-image: url(./img/img-defaul/3.webp);
+}
+
+.tee{
+    background-image: url(./img/img-defaul/4.webp);
+}
+
+.deluxe{
+    background-image: url(./img/img-defaul/5.webp);
+}
+
+.sweater{
+    background-image: url(./img/img-defaul/6.webp);
 }
 
 .heart{
@@ -123,18 +147,25 @@ nav ul li{
 .container div ul li a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 2rem;
 }
 
 .container div ul{
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 footer{
     color: #ffffff;
     background-color: rgb(31, 31, 33);
+    padding-block: 20px;
 }
 
-hr{
-    border-color: gray;
+.social{
+    font-size: 2rem;
 }
+
+h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+} 
