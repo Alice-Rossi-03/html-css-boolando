@@ -27,13 +27,14 @@ header{
     align-items: center;
 }
 
-header div div img{
-    height: 80px;
+header div figure img{
+    height: 60px;
 } 
 
 .icons{
     display: flex;
-    gap: 5px;
+    gap: 20px;
+    font-size: 2rem;
 }
 
 nav ul{
@@ -48,6 +49,7 @@ nav ul li a{
 
 nav ul li{
     list-style-type: none; 
+    font-size: 2rem;
 }
 
 .row{
